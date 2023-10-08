@@ -1,0 +1,44 @@
+# print("число какое?")
+# x = float(input())
+# print("S=",6*x**2)
+# print("V=",x**3)
+
+# print("введите число a")
+# a = int(input())
+# print("введите число b")
+# b = int(input())
+# print(3*(a+b)**3+275*b**2-127*a-41)
+
+# print("введите число")
+# x = int(input())
+# e = int(x/2+0.9)
+# print (e)
+
+# print("введите число")
+# x = int(input())
+# e = int(x/4+0.75)
+# print (e)
+
+# print("cкорость 1 бабушки")
+# x = float(input())
+# print("cкорость 2 бабушки")
+# y= float(input())
+# print("расстояние")
+# z= float(input())
+# print("t=",z/(x+y))
+
+
+# f=input()
+# f=float(f)
+# print("C=",5/9*(f-32))
+
+print("")
+b = int(input())
+print("")
+q = int(input())
+print("")
+n = int(input())
+n=int(n-1)
+print(b*q**n)
+
+
