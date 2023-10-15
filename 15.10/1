@@ -127,3 +127,10 @@ print("Обучался" + str(year1) + " - " + str(year2), "годы")
 lojki = float(input("Введите количество ложек: "))
 litryVody = float(lojki / 2)
 print("Нужно добавить", float(litryVody), "литров воды")
+
+import pyautogui
+pyautogui.moveTo(1250, 15)
+pyautogui.click()
+pyautogui.moveTo(30, 24)
+pyautogui.doubleClick()
+
