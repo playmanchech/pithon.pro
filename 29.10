@@ -1,0 +1,28 @@
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# if( y==(y-x+29)):
+#     z = 5
+# if( y!=(y-x+29)):
+#     z = 6
+# print(z)
+
+import pyautogui
+x = str(input("введите логин "))
+y = int(input("введите пынноль "))
+c = str("banana")
+v = int(228)
+if ( x != str(c) and ( y == int(v))):
+     print("неверный логин")
+if ( y != int(v) and ( x == str(c))):
+     print("неверный пынноль")
+if ( y != int(v) and ( x != str(c))):
+     print("Логин и пынноль неверны")
+if ( y == int(v) and ( x == str(c))):
+     pyautogui.moveTo(1248, 13)
+     pyautogui.click()
+     pyautogui.moveTo(1318, 23)
+     pyautogui.doubleCbalick()
+     
+     
+  
