@@ -1,0 +1,51 @@
+import pyautogui
+import time
+# x = str(input("введите имя "))
+# y = str(input("введите фамилию "))
+# l = int(input("введите ваш возраст "))
+# c = str("Микордий")
+# w = str("Пармезанов")
+# v = int(17)
+# if ( x+y == str(c+w)):
+#      print("ты в чёрном списке")
+# if ( l < int(v)):
+#      print("ты слишком мал")
+# if ( x+y != str(c+w) and l >= int(v)):
+#      pyautogui.alert(text="можете войти", title="вы приняты", button="войти")
+     
+     
+# x = int(input("введите влажность "))
+# l = int(input("введите температуру "))
+# c = int(60)
+# v = int(10)
+# y = int(30)
+# z = int(30)
+# if ( x < int(c) and l > int(v) or x > int(y) and l < int(z)):
+#      print("всё норм")
+# if ( x >= int(c) and l <= int(v) or x <= int(y) and l >= int(z)):
+#      pyautogui.moveTo(410, 747)
+#      pyautogui.click()
+#      pyautogui.moveTo(593, 12)
+#      pyautogui.click()
+#      pyautogui.moveTo(385, 378)
+#      pyautogui.click()
+#      time.sleep(1)
+#      pyautogui.write("chto delati pre narushenii uslovi v oranjeree")
+    
+# x = int(input("1 колесо "))
+# y = int(input("2 колесо "))
+# l = int(input("3 колесо "))
+# w = int(input("4 колесо "))
+# v = int(6)
+# if ( x > int(v)):
+#      print("замени 1 колесо")
+# if ( y > int(v)):
+#      print("замени 2 колесо")
+# if ( l > int(v)):
+#      print("замени 3 колесо")
+# if ( w > int(v)):
+#      print("замени 4 колесо")
+# if ( w <= int(v) and y <= int(v) and x <= int(v) and l <= int(v)):
+#      pyautogui.alert(text="можете ехать", title="пора ехать!", button="ехать")
+
+
