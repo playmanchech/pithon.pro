@@ -1,0 +1,113 @@
+import pyautogui
+import time
+# x = str(input("введите имя "))
+# y = str(input("введите фамилию "))
+# l = int(input("введите ваш возраст "))
+# c = str("Микордий")
+# w = str("Пармезанов")
+# v = int(17)
+# if ( x+y == str(c+w)):
+#      print("ты в чёрном списке")
+# if ( l < int(v)):
+#      print("ты слишком мал")
+# if ( x+y != str(c+w) and l >= int(v)):
+#      pyautogui.alert(text="можете войти", title="вы приняты", button="войти")
+
+
+# x = int(input("введите влажность "))
+# l = int(input("введите температуру "))
+# c = int(60)
+# v = int(10)
+# y = int(30)
+# z = int(30)
+# if ( x < int(c) and l > int(v) or x > int(y) and l < int(z)):
+#      print("всё норм")
+# if ( x >= int(c) and l <= int(v) or x <= int(y) and l >= int(z)):
+#      pyautogui.moveTo(410, 747)
+#      pyautogui.click()
+#      pyautogui.moveTo(593, 12)
+#      pyautogui.click()
+#      pyautogui.moveTo(385, 378)
+#      pyautogui.click()
+#      time.sleep(1)
+#      pyautogui.write("chto delati pre narushenii uslovi v oranjeree")
+
+# x = int(input("1 колесо "))
+# y = int(input("2 колесо "))
+# l = int(input("3 колесо "))
+# w = int(input("4 колесо "))
+# v = int(6)
+# if ( x > int(v)):
+#      print("замени 1 колесо")
+# if ( y > int(v)):
+#      print("замени 2 колесо")
+# if ( l > int(v)):
+#      print("замени 3 колесо")
+# if ( w > int(v)):
+#      print("замени 4 колесо")
+# if ( w <= int(v) and y <= int(v) and x <= int(v) and l <= int(v)):
+#      pyautogui.alert(text="можете ехать", title="пора ехать!", button="ехать")
+
+# w = 0
+# x = int(input("сколько вы потратили за этот месяц "))
+# l = int(input("цена товара "))
+# if ( x >= (1000) and x < (2000)):
+#     w = 5
+# if ( x >= (2000) and x < (5000)):
+#     w = 10
+# if ( x > (5000)):
+#     w = 15
+# print("цена без скидки ", l, " рублей")
+# print("скида ", l*(w/100), " рублей")
+# print("цена со скидкой ", l-l*(w/100), " рублей")
+
+# x = int(input("ведите число "))
+# w = (x%10)
+# e = (x//1000)
+# r = ((x//100)%10)
+# t = ((x//10)%10)
+# if ((w+e) == (r-t)):
+#     print("верно")
+# if ((w+e) != (r-t)):
+#     print("неверно")
+
+# x = int(input("1 число "))
+# y = int(input("2 число "))
+# l = int(input("3 число "))
+# w = int(input("4 число "))
+# if (x < y):
+#     if (x < l):
+#         if (x < w):
+#             print("наименьшое число ", x)
+# if (y < x):
+#     if (y < l):
+#         if (y < w):
+#             print("наименьшое число ", y)
+# if (l < x):
+#     if (l < y):
+#         if (l < w):
+#             print("наименьшое число ", l)
+# if (w < x):
+#     if (w < y):
+#         if (w < l):
+#             print("наименьшое число ", w)
+
+
+# x = int(input("1 число "))
+# y = int(input("2 число "))
+# l = int(input("3 число "))
+# if (x < 0):
+#     x = 0
+# if (y < 0):
+#     y = 0
+# if (l < 0):
+#     l = 0
+# print("сумма положительных чисел = ", x+y+l)
+
+# x = int(input("1 число "))
+# y = int(input("2 число "))
+# if (x < y):
+#     print("неименьшее число = ", x)
+# else:
+#     print("неименьшее число = ", y)
+
