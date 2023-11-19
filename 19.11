@@ -1,0 +1,66 @@
+import pyautogui
+import time
+# 
+# x = int(input("номер столбца 1 числа "))
+# y = int(input("номер строки 1 числа "))
+# l = int(input("номер столбца 2 числа "))
+# w = int(input("номер строки 2 числа "))
+# if(((x + y == 2) or ( x + y == 4) or (x + y == 6) or ( x + y == 8) or (x + y == 10) or (x + y == 12) or (x + y == 14) or ( x + y == 16)) and ((l + w == 2) or ( l + w == 4) or (l + w == 6) or ( l + w == 8) or (l + w == 10) or (l + w == 12) or (l + w == 14) or ( l + w == 16))):
+#     print("yes")
+# else:
+#     if(((x + y == 3) or ( x + y == 5) or (x + y == 7) or ( x + y == 9) or (x + y == 11) or (x + y == 13) or (x + y == 15)) and ((l + w == 3) or ( l + w == 5) or (l + w == 7) or ( l + w == 9) or (l + w == 11) or (l + w == 13) or (l + w == 15))):
+#         print("yes")
+#     else:
+#         print('no')
+        
+# x = int(input("номер столбца 1 числа "))
+# y = int(input("номер строки 1 числа "))
+# l = int(input('номер столбца 2 числа '))
+# w = int(input('номер строки 2 числа '))
+# if (x + y + l + w) % 2 == 0:
+#     print('yes')
+# else:
+#     print('no')
+
+# x = int(input("год "))
+# if(((x % 4 == 0) and (x % 100 != 0)) or ((x % 400 == 0 ))):
+#     print("yes")
+# else:
+#     print('no')
+
+x = int(input("номер столбца 1 числа "))
+y = int(input("номер строки 1 числа "))
+l = int(input('номер столбца 2 числа '))
+w = int(input('номер строки 2 числа '))
+if (x == l) or (y == w):
+    print('yes')
+else:
+    print('no')
+
+# x = int(input("число "))
+# if (x == 1):
+#     print('один')
+# if (x == 2):
+#     print('два')
+# if (x == 3):
+#     print('три')
+# if (x == 4):
+#     print('четыре')
+# if (x == 5):
+#     print('пять')
+# if (x == 6):
+#     print('шесть')
+# if (x == 7):
+#     print('семь')
+# if (x == 8):
+#     print('восемь')
+# if (x == 9):
+#     print('девять')
+# if (x == 0):
+#     print('ноль')
+
+# x = (input("действие "))
+# y = (1 x 1)
+# print(y)
+# y = int(input("номер строки 1 числа "))
+# l = int(input('номер столбца 2 числа '))
