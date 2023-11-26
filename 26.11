@@ -1,0 +1,95 @@
+import pyautogui
+import time
+# y = 1
+# x = int(input("пароль "))
+# while(x != y):
+#     x = int(input("пароль "))
+#     print("пароль невеный")
+# print(" молодец")
+
+# t = 1
+# y = str('g')
+# x = 0
+# e = 0
+# while(x != y):
+#     x = input("логин ")
+#     print("логин невеный")
+# while(e != t):
+#     e = int(input("пароль "))
+#     print("парол невеный")
+# print(" молодец")
+
+# t = 1
+# y = ('g')
+# x = 0
+# e = 0
+# x = input("логин ")
+# e = int(input("пароль "))
+# while((x != y) or (e != t)):
+#     print("пароль или логин невеный")
+#     x = input("логин ")
+#     e = int(input("пароль "))
+# print(" молодец")
+
+# t = 1
+# y = ('g')
+# x = input("логин ")
+# e = int(input("пароль "))
+# while((x != y) or (e != t)):
+#     if(e != t):
+#         print("пароль невеный")
+#     if(x != y):
+#         print("логин невеный")
+#     if((x != y) and (e != t)):
+#         print("логин невеный")
+#     x = input("логин ")
+#     e = int(input("пароль "))
+# print(" молодец")
+
+# y = ('стоп')
+# e = ('чтение')
+# r = ('супергерой')
+# t = ('видео')
+# u = ('игра')
+# x = input("komanda ")
+# while(x != y):
+#     if(x == e):
+#         print("Steel Ball Run")
+#     if(x == r):
+#         print("Джони Джостар")
+#     if(x == t):
+#         print("JoJo")
+#     if(x == u):
+#         print("YBA")
+#     if((x != y) and (x != e) and (x != r) and (x != t) and (x != u)):
+#         print("неизвестная команда")
+#     x = input("komanda ")
+# print("пока ")
+
+y = ('+')
+e = ('-')
+r = ('/')
+t = ('*')
+u = ('стоп')
+x = input("операция ")
+while(x != u):
+    x = input("операция ")
+    z = int(input("1 cл "))
+    c = int(input("2 cл "))
+    if(x == y):
+        print("Steel Ball Run")
+    if(x == r):
+        print("Джони Джостар")
+    if(x == t):
+        print("JoJo")
+    if(x == u):
+        print("YBA")
+    if((x != y) and (x != e) and (x != r) and (x != t) and (x != u)):
+        print("неизвестная команда")
+    x = input("komanda ")
+print("пока ")
+
+
+
+  
+
