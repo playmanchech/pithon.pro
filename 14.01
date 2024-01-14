@@ -1,0 +1,121 @@
+# a1=[]
+# a1=["егор","помудор","огурец","кобачюк"]
+# print('у меня есь спск овщй добвь 2 лбх оващ')
+# a=str(input("1 овщ "))
+# x=str(input("2 овщ "))
+# a1.append(a)
+# a1.append(x)
+# print(a1)
+
+
+# a1=[]
+# a1=["спать","есть","котить"]
+# s=str("добавить")
+# d=str("удалить по индексу")
+# f=str("удалить по названию")
+# g=str("показать элемент по номеру")
+# h=str("показать весь список")
+# z=str(input("команда "))
+# while((z == s) or (z == d) or (z == f) or (z == g) or (z == h)):
+#     if(z == h):
+#         print(a1)
+#         z=str(input("команда "))
+#     if(z == s):
+#         c=str(input("что добамив? "))
+#         a1.append(c)
+#         z=str(input("команда "))
+#     if(z == d):
+#         c=int(input("индекс того, что удалить "))
+#         a1.pop(c)
+#         z=str(input("команда "))
+#     if(z == f):
+#         c=str(input("название того, что удалить "))
+#         a1.remove(c)
+#         z=str(input("команда "))
+#     if(z == g):
+#         c=int(input("индекс того, что показать "))
+#         print(a1[c])
+#         z=str(input("команда "))
+
+
+# a1=[]
+# a1=["спать","есть","котить"]
+# s=str("добавить")
+# d=str("удалить по индексу")
+# f=str("удалить по названию")
+# g=str("показать элемент по номеру")
+# h=str("показать весь список")
+# j=str("переписать по номеру")
+# z=str(input("команда "))
+# while((z == s) or (z == d) or (z == f) or (z == g) or (z == h) or (z == j)):
+#     if(z == h):
+#         print(a1)
+#         z=str(input("команда "))
+#     if(z == s):
+#         c=str(input("что добамив? "))
+#         a1.append(c)
+#         z=str(input("команда "))
+#     if(z == d):
+#         c=int(input("индекс того, что удалить "))
+#         a1.pop(c)
+#         z=str(input("команда "))
+#     if(z == f):
+#         c=str(input("название того, что удалить "))
+#         a1.remove(c)
+#         z=str(input("команда "))
+#     if(z == g):
+#         c=int(input("индекс того, что показать "))
+#         print(a1[c])
+#         z=str(input("команда "))
+#     if(z == j):
+#         c=int(input("номер того что переписать "))
+#         v=str(input("что написать "))
+#         a1[c] = v
+#         z=str(input("команда "))
+
+
+a1=[]
+a1=["лопата","клей","ложка","кровать"]
+m=str("оставить")
+n=str("выкинуть")
+s=str("лопата")
+d=str("кисть")
+f=str("ложка")
+g=str("кровать")
+h=str("инвентарь")
+z=str(input("предмет "))
+while((z == s) or (z == d) or (z == f) or (z == g) or (z == h)):
+    if(z == h):
+        print(a1)
+        z=str(input("предмет "))
+    if z in a1:
+        if(z == s):
+            c=str(input("что делать? "))
+            if(c == n):
+                a1.remove(z)
+            print("ok")
+            z=str(input("предмет "))
+    if z in a1:
+        if(z == d):
+            c=str(input("что делать? "))
+            if(c == n):
+                a1.remove(z)
+            print("ok")
+            z=str(input("предмет "))
+    if z in a1:
+        if(z == f):
+            c=str(input("что делать? "))
+            if(c == n):
+                a1.remove(z)
+            print("ok")
+            z=str(input("предмет "))
+    if z in a1:
+        if(z == g):
+            c=str(input("что делать? "))
+            if(c == n):
+                a1.remove(z)
+            print("ok")
+            z=str(input("предмет "))
+    print("нету такого")
+    z=str(input("предмет "))
+
