@@ -1,0 +1,67 @@
+# step1 = int(input("ckoliko"))
+# for step in range(step1):
+#     print("privet")
+#     
+
+# p = int(input("ckoliko"))
+# step1 = int(p//2)
+# for step in range(step1):
+#     print("privet")
+
+# p = int(input("ckoliko"))
+# step1 = int(p**3)
+# for step in range(step1):
+#     print("privet")
+
+# p = int(input("ckoliko"))
+# step1 = int(p**0.5)
+# for step in range(step1):
+#     print("privet")
+ 
+ 
+ 
+# n = int(input("skoliko "))
+# d = 0
+# for step in range(n):
+#     v = int(input("chislo "))
+#     d = int(d + v)
+# print(d)
+    
+   
+# n = int(input("skoliko "))
+# d = 0
+# e = 0
+# for step in range(n):
+#     e = e + 1
+#     d = int(d + e)
+# print(d)
+
+# n = int(input("skoliko "))
+# d = 1
+# e = 0
+# for step in range(n):
+#     e = e + 1
+#     d = int(d * e)
+# print(d)
+
+# import pyautogui
+# import time
+# e = int(input("skoliko "))
+# n = (e-1)
+# b = 0
+# for step in range(n):
+#     time.sleep(2)
+#     if (b == 0):
+#         b = (b + 1)
+#         pyautogui.moveTo(526,747)
+#         pyautogui.click()
+#     pyautogui.hotkey('ctrl','t')
+# if (b == 0):
+#     pyautogui.moveTo(526,747)
+#     pyautogui.click()
+# pyautogui.click()
+
+
+for step in range(10, 99):
+    if(step %7 != 0):
+        print (step)
