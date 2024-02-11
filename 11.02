@@ -1,0 +1,87 @@
+# a = []
+# for d in range(0, 21, 4):
+#     a.append(d)
+# print(a)
+
+# s = 0
+# d = 0
+# a = [0]
+# while(s != 45):
+#     if (d == 3):
+#         d = 0
+#         a.append(d)
+#     if (d == 2):
+#         d = 3
+#         a.append(d)
+#     if (d == 1):
+#         d = 2
+#         a.append(d)
+#     if (d == 0):
+#         d = 1
+#         a.append(d)
+#     s = s + 1
+# print(a)
+
+# g = 0
+# b = 1
+# a = []
+# x = int(input("сколько? "))
+# d = x + 1
+# for step in range(1, d):
+#     f = int(input("число? "))
+#     a.append(f)
+#     while (g == 0) and (f >0 ):
+#         g = f
+# print(g)
+
+# g = 0
+# b = 1
+# a = []
+# x = int(input("сколько? "))
+# d = x + 1
+# for step in range(1, d):
+#     f = int(input("число? "))
+#     a.append(f)
+# print(f)
+
+g = 0
+b = 1
+a = []
+x = int(input("сколько? "))
+d = x + 1
+for step in range(1, d):
+    f = int(input("число? "))
+    a.append(f)
+    if (g == 0):
+        g = f
+    if (g < f):
+        g = f
+print(g)
+
+# s = 0
+# d = '*'
+# a = ['*']
+# while(s != 41):
+#     if (d == '!'):
+#         d = '*'
+#         a.append(d)
+#     if (d == '^'):
+#         d = '!'
+#         a.append(d)
+#     if (d == '%'):
+#         d = '^'
+#         a.append(d)
+#     if (d == '#'):
+#         d = '%'
+#         a.append(d)
+#     if (d == 'O'):
+#         d = '#'
+#         a.append(d)
+#     if (d == '*'):
+#         d = 'O'
+#         a.append(d)
+#     s = s + 1
+# print(a)
+# print(len(a))
+
+
