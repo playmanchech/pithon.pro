@@ -1,0 +1,59 @@
+# def print_digit_sum(n):
+#     g = 0
+#     t = str(n)
+#     h = len(t)
+#     for i in range(h):
+#         g = g + n % 10
+#         n = n // 10
+#     print(g)
+# 
+# num = int(input('число '))
+# print_digit_sum(num)
+
+
+# def f(a,n,x):
+#     a=[]
+#     g = str(input("ищем "))
+#     x = str(input("в "))
+#     for i in x:
+#         a.append(i)
+#     for i in range(len(a)):
+#         if(a[i] == g):
+#             print(i, end = ' ')
+# f([],9,'abc')
+
+
+def password(p):
+    xq = 0
+    kl = 0
+    x = 0
+    n = 0
+    f = []
+    for i in p:
+        f.append(i)
+    w = ['0','1','2','3','4','5','6','7','8','9']
+    a = ['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M']
+    q = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m']
+    if(len(p) >= 8):
+        n = n + 1
+    for r in range(len(p)):
+        for i in range(26):
+            if ((f[r] == a[i]) and (xq == 0)):
+                n = n + 1
+                xq = 1
+    for l in range(len(p)):
+        for m in range(26):
+            if ((f[l] == q[m]) and (kl == 0)):
+                n = n + 1
+                kl = 1
+    for e in range(len(p)):
+        for s in range(10):
+            if ((f[e] == w[s]) and (x == 0)):
+                n = n + 1
+                x = 1
+    if (n == 4):
+        print('true')
+    else:
+        print('false')
+pas = str(input())
+password(pas)
