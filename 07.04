@@ -1,0 +1,39 @@
+# def f (s):
+#     if (s == 0):
+#         return 1
+#     f(s-1)
+#     print(s)
+# f(int(input()))
+ 
+# def f (s):
+#     if (s == 0):
+#         return 1
+#     print(s)
+#     f(s-1)
+# f(int(input()))
+
+# def f (a,b):
+#     if(a <= b):
+#         if(a == b):
+#             print(a)
+#             return a
+#         print(a)
+#         f(a + 1,b)
+#     if(a >= b):
+#         if(a == b):
+#             print(a)
+#             return a
+#         print(a)
+#         f(a - 1,b)
+#         
+# a1 =(int(input('a ')))
+# b1 =(int(input('b ')))
+# f (a1,b1)
+
+# def f (s):
+#     if (s == 0):
+#         return 1
+#     return s + f(s-1)
+# print(f(int(input()))-1)
+
+
